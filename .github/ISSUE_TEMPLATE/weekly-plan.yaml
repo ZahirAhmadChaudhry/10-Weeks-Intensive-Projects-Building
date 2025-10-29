@@ -1,0 +1,25 @@
+name: Weekly Plan
+description: Research-backed weekly plan (papers + gaps + schedule)
+title: "Week XX Plan: <theme>"
+labels: ["weekly-plan"]
+body:
+  - type: textarea
+    id: problem-gap
+    attributes:
+      label: Problem & Gap
+      description: Context, gaps, hypothesis
+  - type: textarea
+    id: literature
+    attributes:
+      label: Literature Pulse (Top 5)
+      description: Papers and leverage points
+  - type: textarea
+    id: plan
+    attributes:
+      label: Plan
+      description: Datasets, baselines, experiments, XAI
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables
+      description: Checklist of outputs
